@@ -215,7 +215,7 @@ Feel free to view and modify the tests in the `core/tests.py` file. Also, be sur
 The project structure is as follows:
 
 ```plaintext
-Learning-Management-System/
+Mentoring-Management-System/
 ├── LMS-Backend
 │   ├── .gitignore
 │   ├── Dockerfile
@@ -671,7 +671,7 @@ The project can be containerized using Docker. The `Dockerfile` and `docker-comp
 1. **Change directory into the project root:**
 
    ```bash
-   cd Learning-Management-System
+   cd Mentoring-Management-System
    ```
    
 2. **Build the Docker image:**
@@ -811,5 +811,3 @@ We welcome contributions! Feel free to submit issues and create pull requests.
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-**[⬆ Back to Top](#e-learning-management-fullstack-system)**

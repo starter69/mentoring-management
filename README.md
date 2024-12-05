@@ -1,13 +1,12 @@
-# E-Learning Management Fullstack System
+# E-Mentoring Management System
 
-Welcome to the **E-Learning Management System (LMS)**! This project consists of two main components: the **Frontend** (built with **Angular**) and the **Backend** (developed using **Django and Django REST Framework**), combined with CI/CD technologies such as **Docker** and **Jenkins**. The LMS is a full-featured web application designed to manage users, courses, lessons, quizzes, and much more. This README provides a complete guide on how to set up, run, and contribute to both parts of the system.
+Welcome to the **E-Mentoring Management System (LMS)**! This project consists of two main components: the **Frontend** (built with **Angular**) and the **Backend** (developed using **Django and Django REST Framework**), combined with CI/CD technologies such as **Docker** and **Jenkins**. The LMS is a full-featured web application designed to manage users, courses, lessons, quizzes, and much more. This README provides a complete guide on how to set up, run, and contribute to both parts of the system.
 
 ## Table of Contents
 
 - [Project Overview](#project-overview)
   - [The MAD-Stack](#the-mad-stack)
 - [Features](#features)
-- [Live Deployment](#live-deployment)
 - [Detailed Project Information](#detailed-project-information)
   - [Frontend User Interfaces](#frontend-user-interfaces)
   - [Available API Endpoints](#available-api-endpoints)
@@ -30,11 +29,10 @@ Welcome to the **E-Learning Management System (LMS)**! This project consists of 
 - [Additional Information](#additional-information)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Project Overview
 
-The **E-Learning Management System** is a web-based platform designed to facilitate online education and training. It provides a comprehensive set of features for managing courses, lessons, users, quizzes, and more. The system is composed of:
+The **E-Mentoring Management System** is a web-based platform designed to facilitate online education and training. It provides a comprehensive set of features for managing courses, lessons, users, quizzes, and more. The system is composed of:
 
 - **Frontend**: Built with **Angular** and **Bootstrap**, it offers a user-friendly interface for interacting with the platform.
 - **Backend**: Developed using **Django** and **Django REST Framework**, it provides robust **REST APIs** for all the operations.
@@ -68,16 +66,6 @@ The **MAD-Stack** is a powerful combination that allows developers to build scal
 - **Data Visualization**: Dynamic charts using Chart.js.
 - **Comprehensive APIs**: Powerful RESTful APIs for all operations.
 - **API Documentation**: Comprehensive REST API documentation with Swagger and Redoc.
-
-## Live Deployment
-
-The project is currently deployed live on Vercel and Render. You can access the live deployment using the following link: [E-Learning Management System](https://learning-manangement-system.vercel.app).
-
-The backend is deployed on Render: [Backend API](https://learning-management-system-fullstack.onrender.com/).
-
-Feel free to explore the platform, create an account, and test out the features.
-
-However, please note that our backend server may spin down due to inactivity, so you may experience delays in loading data initially. If you encounter any issues, please let me know.
 
 ## Detailed Project Information:
 
@@ -382,8 +370,8 @@ Ensure the following prerequisites are installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/hoangsonww/Learning-Management-System-Fullstack.git
-   cd Fullstack-Learning-Management-System/LMS-Backend
+   git clone https://github.com/starter69/mentoring-management.git
+   cd ./LMS-Backend
    ```
 
 2. **Create and activate a virtual environment:**
@@ -470,7 +458,7 @@ Ensure the following prerequisites are installed:
 1. **Navigate to the frontend directory:**
 
    ```bash
-   cd Learning-Management-System/LMS-Frontend/app
+   cd ./LMS-Frontend/app
    ```
 
 2. **Install dependencies:**
@@ -797,7 +785,6 @@ The Jenkins pipeline will automatically build the Docker images, run the unit te
 - Check the Django console for server-side errors.
 - Check the Angular console for client-side errors.
 - Refer to the official documentation for troubleshooting tips.
-- Feel free to open an issue or contact me for help. Refer to the [Contact](#contact) section below.
 
 ## Additional Information
 
@@ -822,12 +809,6 @@ We welcome contributions! Feel free to submit issues and create pull requests.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-If you have any questions or need further assistance, contact us at [hoangson091104@gmail.com](mailto:hoangson091104@gmail.com).
-
-Alternatively, you can also open an issue in the repository [here](https://github.com/hoangsonww/Learning-Management-System-Fullstack/issues).
 
 ---
 
